@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>hover_image_change</title>
+    <link rel="stylesheet" href="/daslider.css" />
+    <link rel="stylesheet" href="/daslider_theme_default.css" />
+    <style>
+        main { max-width: 1200px; margin: 0 auto; border: 1px solid rgba(0,0,0,0.4); }
+    </style>
+</head>
+<body>
+    <main>
+
+        <section>
+            <div id="DASLIDER" class="daslider hover_image_change">
+                <div class="daslider_background_wrap">
+                    <div class="daslider_background_image active" style="background-image: url(//placehold.it/100x100);"></div>
+                    <div class="daslider_background_image" style="background-image: url(//placehold.it/200x200);"></div>
+                    <div class="daslider_background_image" style="background-image: url(//placehold.it/300x300);"></div>
+                    <div class="daslider_background_image" style="background-image: url(//placehold.it/400x400);"></div>
+                </div>
+                <div class="daslider_anchor_box">
+                    <ul class="daslider_anchor_ul">
+                        <li><a href="#" class="daslider_anchor active">회사소개</a></li>
+                        <li><a href="#" class="daslider_anchor">제품소개</a></li>
+                        <li><a href="#" class="daslider_anchor">연혁소개</a></li>
+                        <li><a href="#" class="daslider_anchor">오시는길</a></li>
+                    </ul>
+                </div>
+                <button type="button" class="daslider_button_prev"><</button>
+                <button type="button" class="daslider_button_next">></button>
+            </div>
+        </section>
+
+    </main>
+    <script src="/daslider.js"></script>
+    <script>
+        initDaslider({
+            targetID: 'DASLIDER',
+            // speed: 1500,
+            // anchorClassName: 'daslider_anchor',
+            // buttonSelectorPrev: '.daslider_button_prev',
+            // buttonSelectorNext: '.daslider_button_next'
+        });
+    </script>
+</body>
+</html>

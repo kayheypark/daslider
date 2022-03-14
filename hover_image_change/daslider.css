@@ -1,0 +1,49 @@
+.daslider {
+
+    position: relative;
+    
+}
+.daslider.hover_image_change {
+    
+}
+.daslider_background_wrap {
+    position: relative;
+    height: 100vh;
+}
+.daslider_background_image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0;
+    transition: opacity 700ms ease 0ms;
+}
+.daslider_background_image.active {
+    opacity: 1;
+}
+.daslider_anchor_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.daslider_anchor_box ul {
+
+}
+.daslider_anchor_box li {
+
+}
+.daslider_button_prev,.daslider_button_next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.daslider_button_prev {
+    left: 0;
+}
+.daslider_button_next {
+    right: 0;
+}

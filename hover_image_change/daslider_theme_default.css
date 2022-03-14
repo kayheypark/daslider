@@ -1,0 +1,29 @@
+﻿.daslider_anchor_box ul {
+    display: flex;
+    column-gap: 40px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.daslider_anchor_box ul li a {
+    display: block;
+    padding: 30px;
+    word-break: keep-all;
+    text-decoration: none;
+    font-weight: 700;
+    border: 1px solid #333333;
+    color: #333333;
+}
+
+.daslider_anchor_box ul li a.active {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #333333;
+}
+
+.daslider_anchor_box ul li a:hover {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #333333;
+}
